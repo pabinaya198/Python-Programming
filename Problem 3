@@ -1,0 +1,8 @@
+Number n from User and print the values :-
+
+import math
+a=10.7
+n=input("enter the number:")
+printh(math.log2(a))
+print(math.cos(a))
+print("You are" + str("e^n"))
