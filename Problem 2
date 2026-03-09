@@ -1,0 +1,8 @@
+Get User Input :-
+
+name=input("enter your name:")
+Email=input("enter your Email:")
+phno=input("enter your phno:")
+print("Username:{ABINAYA}")
+print("Email:{pabinaya198@gmail.com}")
+print("phno:{8489051701}")
