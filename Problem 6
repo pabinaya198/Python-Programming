@@ -1,0 +1,3 @@
+str="Good morning"
+print(str[:3])
+print(str[9:12])
