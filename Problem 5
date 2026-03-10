@@ -1,0 +1,13 @@
+Take a number from user the print :-
+    -positive
+    -negative
+    -zero
+Using if-else ladder    
+
+n=float(input("enter a number:"))
+if n>0:
+    print("the number is positive")
+elif n<0:
+    print("the number is negative")
+else:
+    print("the number is zero")
