@@ -1,28 +1,25 @@
-name="Abi"
-age="22"
-gender="female"
-print(name)
-print(age)
-print(gender)
+firstname=input("enter your name:")
+age1=input("enter your age:")
+gender1=input("enter your gender female/male:")
 
-name="Prasath"
-age="22"
-grender="male"
-print(name)
-print(age)
-print(gender)
 
-name="Geetha"
-age="21"
-gender="female"
-print(name)
-print(age)
-print(gender)
+secondname=input("enter your name:")
+age2=input("enter your age:")
+gender2=input("enter your gender female/male:")
 
-name="Ram"
-age="25"
-gender="male"
-print(name)
-print(age)
-print(gender)
+
+thirdname=input("enter your name:")
+age3=input("enter your age:")
+gender3=input("enter your gender female/male:")
+
+
+fourthname=input("enter your name:")
+age4=input("enter your age:")
+gender4=input("enter your gender female/male:")
+
+
+print(firstname,age1,gender1)
+print(secondname,age2,gender2)
+print(thirdname,age3,gender3)
+print(fourthname,age4,gender4)
 
