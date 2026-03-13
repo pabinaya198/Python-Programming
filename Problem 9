@@ -1,0 +1,8 @@
+to_doList=[]
+while True:
+    user=input("enter a task (to 'finish' or quit):")
+    if task.lower()=='finish':
+        break
+    else:
+        to_doList.append+('task')
+    print(" your to_doList:")
