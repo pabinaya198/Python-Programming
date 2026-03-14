@@ -1,0 +1,7 @@
+my_list=[3,4,5,-2,-1,2,8,0,-4]
+print("the negative numbers is:")
+for number in my_list:
+    if number<0:
+        print(number)
+print("the end of list:[3:9]")
+
