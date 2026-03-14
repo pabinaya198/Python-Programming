@@ -1,8 +1,8 @@
-to_doList=[]
+todo_List=[]
 while True:
-    user=input("enter a task (to 'finish' or quit):")
+    task=input("enter a task (to finish or quit):")
     if task.lower()=='finish':
         break
     else:
-        to_doList.append+('task')
-    print(" your to_doList:")
+        todo_List.append(task)
+        print(" your To_Do List:",'todo_list')
