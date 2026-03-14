@@ -1,0 +1,16 @@
+def find_peak(arr):
+    n=len(arr)
+    if n==0:
+        return None
+    for i in range(n):
+        is_peak=True
+        if i>0 and arr[i]<arr[i-1]:
+            is_peak=False
+        if i<n-1 and arr[i]<arr[i+1]:
+            is_peak=False
+        if is_peak:
+            return arr[i]
+    return None
+arr=(3,4,6,7,5)
+peak=find_peak(arr)
+print("the peak element in",arr,"is:",peak) 
