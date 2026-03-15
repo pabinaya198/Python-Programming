@@ -1,0 +1,9 @@
+def find_multipe_of_20(n):
+    number=10
+    while True:
+        if number % 20 == 0:
+            multiple=number(10)
+            break
+        number += 1
+    print("find multiple of 20 is:") 
+    
